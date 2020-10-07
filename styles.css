@@ -79,13 +79,13 @@ body{
 }
   
 .color-choose input[type="radio"]#green + label span {
-    background-color:darkolivegreen;
+    background-color: lightsalmon;
 }
 .color-choose input[type="radio"]#gold + label span {
-    background-color:lightsalmon;
+    background-color: crimson;
 }
 .color-choose input[type="radio"]#silver + label span {
-    background-color:silver;
+    background-color: mediumaquamarine;
 }
 .color-choose input[type="radio"]#grey + label span {
     background-color: grey;

@@ -16,7 +16,7 @@
         //In folderul assets gasim fotografiile produsului a caror denumire respecta formatul product_main_<color>.webp
         function changeColor(color) {
             var imageElement = document.getElementById('product-image');
-            imageElement.src = "assets/product_main_" + color + ".webp";
+            imageElement.src = "assets/samsung-" + color + ".jpg";
             var titleElement = document.getElementById('product-color-in-title');
             titleElement.innerText = capitalize(color);
         }
@@ -51,11 +51,11 @@
     <div class="container center">
         <div class="product-main">
             <div class="product-image">
-                <img src="assets/product_main_green.webp" id="product-image" />
+                <img src="assets/samsung-orange.jpg" id="product-image" />
             </div>
             <div class="product-details">
                 <div class="product-title">
-                    <h3>iPhone 11 Pro Midnight
+                    <h3>Samsung Galaxy S20 FE
                         <span id="product-color-in-title">
                             Green
                         </span> 
@@ -76,24 +76,19 @@
 
                         <div class="color-choose">
                             <div>
-                                <input data-image="green" type="radio" id="green" name="color"
-                                    onchange="changeColor('green')" checked>
+                                <input data-image="orange" type="radio" id="green" name="color"
+                                    onchange="changeColor('orange')" checked>
                                 <label for="green"><span></span></label>
                             </div>
                             <div>
-                                <input data-image="gold" type="radio" id="gold" name="color"
-                                    onchange="changeColor('gold')">
+                                <input data-image="red" type="radio" id="gold" name="color"
+                                    onchange="changeColor('red')">
                                 <label for="gold"><span></span></label>
                             </div>
                             <div>
-                                <input data-image="silver" type="radio" id="silver" name="color"
-                                    onchange="changeColor('silver')">
+                                <input data-image="green" type="radio" id="silver" name="color"
+                                    onchange="changeColor('green')">
                                 <label for="silver"><span></span></label>
-                            </div>
-                            <div>
-                                <input data-image="grey" type="radio" id="grey" name="color"
-                                    onchange="changeColor('grey')">
-                                <label for="grey"><span></span></label>
                             </div>
                         </div>
 
@@ -133,7 +128,7 @@
                 </tr>
                 <tr>
                     <td>Operating system</td>
-                    <td>iOS</td>
+                    <td>Android 10</td>
                 </tr>
                 <tr>
                     <td>Cores</td>
@@ -141,7 +136,7 @@
                 </tr>
                  <tr>
                     <td>CPU</td>
-                    <td>Apple A13 Bionic</td>
+                    <td>ARM Mali-G77</td>
                 </tr>
             </tbody>
         </table>
